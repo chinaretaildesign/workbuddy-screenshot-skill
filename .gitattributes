@@ -1,0 +1,5 @@
+# shell 脚本必须 LF，否则 macOS/Linux 会报 bad interpreter
+*.sh text eol=lf
+# PowerShell 脚本用 CRLF，中文需 UTF-8 BOM（已在文件中写入）
+*.ps1 text eol=crlf
+*.md text eol=lf
